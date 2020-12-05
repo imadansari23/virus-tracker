@@ -1,0 +1,24 @@
+.cardContainer{
+    margin: 20px 0;
+}
+.CardGrid{
+    width: 300px;
+    /* margin: 10px !important; */
+    margin-top: 10px !important;
+    margin-left: 50px !important;
+    padding: 5px !important;
+}
+.deaths{
+    border-bottom: 10px solid red !important;
+}
+
+.infected{
+    border-bottom: 10px solid blue !important;
+}
+
+.recovered{
+    border-bottom: 10px solid rgb(101, 255, 62) !important;
+}
+.chartContainer{
+    width : 85%;
+}

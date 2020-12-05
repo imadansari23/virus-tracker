@@ -1,0 +1,18 @@
+*{
+    margin: 10px;
+}
+body{
+    background-color:#F5F5F5;
+}
+.container{
+    /* background-color:#F2D7D5; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px !important;
+}
+.heading1{
+    font-size: 3em;
+    margin-bottom: 10px;
+}
