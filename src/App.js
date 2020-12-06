@@ -26,7 +26,7 @@ export default function App() {
 
     return (
         <div className='container'>
-            <h1 className='heading1'>COVID-19 Tracker</h1>
+            <h1 className='heading1'>COVID-19 Tracker - IMAD</h1>
             <Cards data={globalData}/>
             <CountrySelector data={handleCountry}/>
             <Chart data={globalData} country={selectedCountry}/>
