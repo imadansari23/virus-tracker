@@ -29,7 +29,7 @@ export default function App() {
             <h1 className='heading1'>COVID-19 Tracker</h1>
             <Cards data={globalData}/>
             <CountrySelector data={handleCountry}/>
-            <Chart data={globalData}/>
+            <Chart data={globalData} country={selectedCountry}/>
             <Footer />
         </div>
     )
